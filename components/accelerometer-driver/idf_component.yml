@@ -1,0 +1,12 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf:
+    version: ">=5.0.2"
+
+  MPU-driver:
+    version: "master"
+    git: https://github.com/natanaeljr/esp32-MPU-driver.git
+  I2Cbus:
+    version: "master"
+    git: https://github.com/natanaeljr/esp32-I2Cbus.git
